@@ -10,15 +10,12 @@ int main()
         for (int i = 0; i < S4.size() - 1; i++)
         {
                 if (S4.at(i) >= S4.at(i+1))
-                {
                     std::swap(S4[i], S4.at(i+1));
-                }
         }
     }
     
-    for (int i = 0; i < S4.size(); i++)
-    {
+    for (int i = 0; i < S4.size(); i++) 
         std::cout << S4.at(i) << " ";
-    }
+        
     return 0;
 }
